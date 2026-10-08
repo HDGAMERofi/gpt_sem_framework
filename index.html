@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Grid F1 — notícias, curiosidades, equipes, pilotos, carros e história da Fórmula 1.">
+  <title>Grid F1 — O universo da Fórmula 1</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Grid F1 — página inicial">
+        <span class="brand-mark" aria-hidden="true">F1</span>
+        <span>GRID <strong>F1</strong></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Abrir menu</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#noticias">Notícias</a>
+        <a href="#equipes">Equipes</a>
+        <a href="#pilotos">Pilotos</a>
+        <a href="#carros">Carros</a>
+        <a href="#historia">História</a>
+        <a href="#curiosidades">Curiosidades</a>
+      </nav>
+
+      <button class="contrast-toggle" type="button" aria-pressed="false" title="Alternar contraste">
+        Alto contraste
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> Universo da Fórmula 1</p>
+          <h1 id="hero-title">Velocidade.<br><em>Estratégia.</em><br>História.</h1>
+          <p class="hero-lead">
+            Um guia visual e acessível para quem acompanha a F1, quer descobrir seus bastidores
+            ou está começando agora.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#noticias">Explorar o grid <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#historia">Conhecer a história</a>
+          </div>
+          <div class="hero-facts" aria-label="Destaques da Fórmula 1">
+            <div><strong>1950</strong><span>1º campeonato mundial</span></div>
+            <div><strong>24</strong><span>Grandes Prêmios em um calendário recente</span></div>
+            <div><strong>300+</strong><span>km/h em trechos de alta velocidade</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Ilustração decorativa de um carro de Fórmula 1">
+          <div class="speed-line line-1"></div>
+          <div class="speed-line line-2"></div>
+          <div class="speed-line line-3"></div>
+          <div class="track"></div>
+          <div class="f1-car" aria-hidden="true">
+            <div class="rear-wing"></div>
+            <div class="pod"></div>
+            <div class="cockpit"></div>
+            <div class="nose"></div>
+            <div class="front-wing"></div>
+            <div class="wheel wheel-left"></div>
+            <div class="wheel wheel-right"></div>
+          </div>
+          <div class="hero-badge"><span>01</span> A corrida começa aqui</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Barra de destaques">
+      <div class="ticker-inner container">
+        <span class="ticker-label">NO GRID</span>
+        <div class="ticker-track">
+          <span>F1 combina engenharia, estratégia e habilidade</span>
+          <span aria-hidden="true">•</span>
+          <span>Conheça as equipes e suas identidades</span>
+          <span aria-hidden="true">•</span>
+          <span>Reviva momentos que mudaram o esporte</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="noticias" aria-labelledby="noticias-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Atualidade</p>
+            <h2 id="noticias-title">Notícias & destaques</h2>
+          </div>
+          <button class="text-button" type="button" data-filter="all">Ver todas <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="news-layout">
+          <article class="featured-news card">
+            <div class="news-visual visual-red"><span>F1</span><small>DESTAQUE</small></div>
+            <div class="card-body">
+              <span class="tag">TECNOLOGIA</span>
+              <h3>Como cada detalhe do carro pode decidir uma corrida</h3>
+              <p>Da aerodinâmica à gestão dos pneus, pequenas escolhas podem transformar o ritmo de um fim de semana.</p>
+              <a href="#carros" class="card-link">Entender a tecnologia <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <div class="news-list" role="list" aria-label="Outros destaques">
+            <article class="news-item card" role="listitem">
+              <div class="mini-number">02</div>
+              <div>
+                <span class="tag">ESTRATÉGIA</span>
+                <h3>Por que o pit stop é uma peça-chave?</h3>
+                <p>Tempo, pneus e tráfego precisam ser calculados em segundos.</p>
+              </div>
+            </article>
+            <article class="news-item card" role="listitem">
+              <div class="mini-number">03</div>
+              <div>
+                <span class="tag">BASTIDORES</span>
+                <h3>O trabalho que existe antes de cada largada</h3>
+                <p>Centenas de profissionais transformam dados em decisões.</p>
+              </div>
+            </article>
+            <article class="news-item card" role="listitem">
+              <div class="mini-number">04</div>
+              <div>
+                <span class="tag">CALENDÁRIO</span>
+                <h3>O que torna cada circuito diferente?</h3>
+                <p>Curvas, clima, altitude e asfalto mudam o desafio.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="equipes" aria-labelledby="equipes-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Construtores</p>
+            <h2 id="equipes-title">Equipes que fazem o grid</h2>
+          </div>
+          <p class="section-intro">Exemplos de identidades históricas e contemporâneas da categoria.</p>
+        </div>
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-top ferrari"><span>F</span><span>01</span></div>
+            <h3>Ferrari</h3><p>Tradição, competição e uma das marcas mais reconhecidas do automobilismo.</p>
+            <span class="team-meta">Itália · Scuderia</span>
+          </article>
+          <article class="team-card">
+            <div class="team-top mclaren"><span>◒</span><span>02</span></div>
+            <h3>McLaren</h3><p>Engenharia britânica com uma longa história de inovação e grandes pilotos.</p>
+            <span class="team-meta">Reino Unido · Racing Team</span>
+          </article>
+          <article class="team-card">
+            <div class="team-top mercedes"><span>✦</span><span>03</span></div>
+            <h3>Mercedes</h3><p>Uma referência moderna em performance, dados e eficiência.</p>
+            <span class="team-meta">Alemanha · Works Team</span>
+          </article>
+          <article class="team-card">
+            <div class="team-top redbull"><span>RB</span><span>04</span></div>
+            <h3>Red Bull Racing</h3><p>Abordagem agressiva, aerodinâmica avançada e cultura de alta performance.</p>
+            <span class="team-meta">Áustria · Racing Team</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pilotos" aria-labelledby="pilotos-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Protagonistas</p>
+            <h2 id="pilotos-title">Pilotos que marcaram gerações</h2>
+          </div>
+        </div>
+        <div class="driver-grid">
+          <article class="driver-card">
+            <div class="driver-avatar avatar-1" aria-hidden="true">AS</div>
+            <div><span class="tag">LENDAS</span><h3>Ayrton Senna</h3><p>Tricampeão mundial e referência de velocidade em classificação e corrida.</p></div>
+          </article>
+          <article class="driver-card">
+            <div class="driver-avatar avatar-2" aria-hidden="true">LH</div>
+            <div><span class="tag">LENDAS</span><h3>Lewis Hamilton</h3><p>Um dos maiores vencedores da história, conhecido pela consistência e longevidade.</p></div>
+          </article>
+          <article class="driver-card">
+            <div class="driver-avatar avatar-3" aria-hidden="true">MS</div>
+            <div><span class="tag">LENDAS</span><h3>Michael Schumacher</h3><p>Sete títulos mundiais e uma era de domínio técnico e esportivo.</p></div>
+          </article>
+          <article class="driver-card">
+            <div class="driver-avatar avatar-4" aria-hidden="true">JP</div>
+            <div><span class="tag">BRASIL</span><h3>José Carlos Pace</h3><p>Brasileiro de talento e presença marcante na história da categoria.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cars-section" id="carros" aria-labelledby="carros-title">
+      <div class="container cars-layout">
+        <div>
+          <p class="eyebrow">Engenharia</p>
+          <h2 id="carros-title">Por dentro de um F1</h2>
+          <p class="large-copy">Um carro de Fórmula 1 é um sistema integrado: cada componente precisa trabalhar em harmonia para extrair desempenho.</p>
+          <div class="car-stats">
+            <div><strong>Aero</strong><span>Gera carga para aumentar a aderência.</span></div>
+            <div><strong>PU</strong><span>Unidade de potência e recuperação de energia.</span></div>
+            <div><strong>Pneus</strong><span>Conectam toda a performance ao asfalto.</span></div>
+            <div><strong>Dados</strong><span>Sensores alimentam decisões em tempo real.</span></div>
+          </div>
+        </div>
+        <div class="technical-card" aria-label="Esquema visual simplificado de um carro de Fórmula 1">
+          <div class="tech-car">
+            <span class="callout callout-1">Aerofólio dianteiro</span>
+            <span class="callout callout-2">Cockpit</span>
+            <span class="callout callout-3">Assoalho</span>
+            <span class="callout callout-4">Difusor</span>
+            <div class="tech-body"></div><div class="tech-wheel w1"></div><div class="tech-wheel w2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="historia" aria-labelledby="historia-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Desde 1950</p><h2 id="historia-title">Uma história em movimento</h2></div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item"><time>1950</time><div><h3>Nasce o Campeonato Mundial</h3><p>A primeira temporada oficial estabelece a base da Fórmula 1 moderna.</p></div></article>
+          <article class="timeline-item"><time>1970s</time><div><h3>A revolução aerodinâmica</h3><p>O efeito solo e novas soluções transformam a forma de gerar aderência.</p></div></article>
+          <article class="timeline-item"><time>1990s</time><div><h3>A era eletrônica</h3><p>Telemetria, eletrônica e análise de dados ganham espaço decisivo.</p></div></article>
+          <article class="timeline-item"><time>2014</time><div><h3>Era híbrida</h3><p>As unidades de potência híbridas levam eficiência energética ao centro do projeto.</p></div></article>
+          <article class="timeline-item"><time>Hoje</time><div><h3>Performance com sustentabilidade</h3><p>A categoria segue buscando velocidade enquanto reduz sua pegada ambiental.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section facts-section" id="curiosidades" aria-labelledby="curiosidades-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Você sabia?</p><h2 id="curiosidades-title">Curiosidades da F1</h2></div></div>
+        <div class="facts-grid">
+          <button class="fact-card" type="button" data-fact="A comunicação por rádio entre equipe e piloto é parte essencial da tomada de decisão durante a corrida.">
+            <span class="fact-icon" aria-hidden="true">◉</span><strong>Rádio</strong><span>Toque para descobrir</span>
+          </button>
+          <button class="fact-card" type="button" data-fact="O volante de um F1 concentra dezenas de funções e informações, muito além de simplesmente virar o carro.">
+            <span class="fact-icon" aria-hidden="true">⌁</span><strong>Volante</strong><span>Toque para descobrir</span>
+          </button>
+          <button class="fact-card" type="button" data-fact="A temperatura dos pneus influencia fortemente a aderência e é monitorada cuidadosamente pelas equipes.">
+            <span class="fact-icon" aria-hidden="true">°</span><strong>Pneus</strong><span>Toque para descobrir</span>
+          </button>
+          <button class="fact-card" type="button" data-fact="Uma equipe trabalha com uma enorme quantidade de dados para entender o carro, o circuito e os adversários.">
+            <span class="fact-icon" aria-hidden="true">∑</span><strong>Dados</strong><span>Toque para descobrir</span>
+          </button>
+        </div>
+        <div id="fact-output" class="fact-output" role="status" aria-live="polite">Selecione uma curiosidade para revelar o detalhe.</div>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <div><p class="eyebrow">Seu próximo pit stop</p><h2 id="cta-title">A Fórmula 1 tem muito mais para contar.</h2></div>
+        <a class="button button-primary" href="#topo">Voltar ao topo <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="#topo"><span class="brand-mark">F1</span><span>GRID <strong>F1</strong></span></a><p>Um projeto editorial independente sobre o universo da Fórmula 1.</p></div>
+      <div><h2>Explorar</h2><a href="#noticias">Notícias</a><a href="#equipes">Equipes</a><a href="#historia">História</a></div>
+      <div><h2>Acessibilidade</h2><p>Contraste, foco visível, navegação por teclado, estrutura semântica e suporte a leitores de tela.</p></div>
+    </div>
+    <div class="footer-bottom container"><span>© 2026 Grid F1</span><span>Feito sem frameworks · HTML · CSS · JavaScript</span></div>
+  </footer>
+</body>
+</html>
